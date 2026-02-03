@@ -1,0 +1,13 @@
+[
+  { "label": "Home", "path": "/" },
+  { "label":"ressources", "path": "/resources"},
+  {
+    "label": "labs",
+    "children": [
+      { "label": "Generate", "path": "/jwt/generate" },
+      { "label": "Verify", "path": "/jwt/verify" }
+    ]
+  },
+  { "label": "About", "path": "/about" }
+]
+
