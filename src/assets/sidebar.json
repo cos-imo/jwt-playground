@@ -4,8 +4,9 @@
   {
     "label": "labs",
     "children": [
-      { "label": "Generate", "path": "/jwt/generate" },
-      { "label": "Verify", "path": "/jwt/verify" }
+      { "label": "Lab 0", "path": "/labs/lab-0" },
+      { "label": "Lab 1", "path": "/labs/lab-1" },
+      { "label": "Lab 2", "path": "/labs/lab-2" }
     ]
   },
   { "label": "About", "path": "/about" }
