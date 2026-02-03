@@ -8,8 +8,8 @@ export default function Lab0() {
 
   return (
     <>
-      <h1>Lab0</h1>
-      <Outlet />
+      <h1>Lab 0</h1>
+      test
     </>
   )
 }

@@ -9,7 +9,7 @@ const labsMap = {
   'lab-2': Lab2
 }
 
-export default function Lab() {
+export function Lab() {
   const { labId } = useParams()
   const LabComponent = labsMap[labId]
 

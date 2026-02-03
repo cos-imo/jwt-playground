@@ -2,6 +2,8 @@ import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 import Link from '@mui/material/Link';
 
+import { Lab } from './labs/Lab.jsx'
+
 import { useParams } from 'react-router-dom';
 
 export default function Labs() {
@@ -17,6 +19,7 @@ export default function Labs() {
           </Link>
           <Typography sx={{ color: 'text.primary' }}>{labId}</Typography>
         </Breadcrumbs>
+        <Lab />
       </>
     )
   } else {

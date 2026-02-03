@@ -4,7 +4,7 @@ import Sidebar from './Sidebar'
 import Home from './Home'
 import Resources from './Resources'
 import Labs from './Labs'
-import Lab from './labs/Lab'
+import { Lab } from './labs/Lab'
 import About from './About'
 
 export default function App() {
